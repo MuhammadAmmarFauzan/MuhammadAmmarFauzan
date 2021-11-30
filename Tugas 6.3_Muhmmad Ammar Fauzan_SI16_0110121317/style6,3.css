@@ -1,0 +1,51 @@
+.main{
+    height: 100vh;
+}
+
+header{
+    background-color: cadetblue;
+    overflow: hidden;
+    height: 10vh;
+    margin: 10px;
+}
+
+footer{
+    background-color: cadetblue;
+    overflow: hidden;
+    height: 10vh;
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+    height: 80vh;
+    margin: 10px;
+}
+
+aside{
+    flex: 20%;
+    background-color: rgb(2, 146, 172);
+}
+
+.article{
+    flex: 80%;
+    display: flex;
+    background-color: rgb(241, 92, 167);
+    margin-left: 5px;
+    text-align: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.img-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    padding: 10px;
+}
+
+img{
+    width: 90%;
+}
