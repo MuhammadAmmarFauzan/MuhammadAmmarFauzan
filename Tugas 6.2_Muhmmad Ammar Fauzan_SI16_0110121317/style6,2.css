@@ -1,0 +1,48 @@
+body {
+    display: flex;
+  }
+  
+  .container-flex-kiri{
+      display: flex;
+      flex-grow: 1;
+  }
+
+  .container-flex-kanan {
+    display: flex;
+    flex-grow: 6;
+    flex-direction: column;
+    background-color: pink;
+  }
+  
+  nav {
+    flex-grow: 1;
+    height: 100vh;
+    background-color: palevioletred;
+  }
+  
+  header {
+    height: 70px;
+    background-color: rgb(253, 211, 133);
+    flex-grow: 1;
+  }
+  
+  article {
+    flex-grow: 3;
+    background-color: white;
+  }
+  
+  aside {
+    flex-grow: 1;
+    background-color: aqua;
+  }
+  
+  footer {
+    flex-grow: 1;
+    background-color: rgb(253, 211, 133);
+  }
+  
+  .wrapper-article-aside {
+    display: flex;
+    flex-grow: 4;
+  }
+  
